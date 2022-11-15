@@ -1,0 +1,108 @@
+/*col-9*/
+.contact-us{
+    margin-top: 35px;
+}
+.contact-us .row{
+    width: 1300px;
+}
+.title{
+    margin-top: 35px;
+    text-align: justify;
+    color: #000000;
+}
+.hr{
+    width: 150px;
+    color: #028614;
+    margin-left: -3px;
+}
+.date{
+    font-style: italic;
+}
+.caption{
+    margin-top: -25px;
+    color: #000000;
+    width: 100%;
+    text-align: justify;
+}
+/*end col-9*/
+
+/*start Up Comming image*/
+.box{
+    width: 285px;
+    background: linear-gradient(87deg, #01ADBB 2.78%, rgba(1,173, 187, 0.175754) 103.5%, rgba(173, 187,0) 125.76%);
+}
+.image{
+    margin-left: 35px;
+    width: 210px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.box1{
+    margin-top: 12px;
+    width: 285px;
+    background: linear-gradient(185.3deg, #FCCE00 4.24%, rgba(196, 196, 196,0) 130.57%, rgba(173, 187,0) 125.76%);
+}
+.viewdetail{
+    width: 100px;
+    margin-left: 35px;
+    height: 32px;
+    border-radius: 45px;
+    color: #FFFFFF;
+    background: #028614;
+    font-size: 12px;
+    border-color: #028614;
+}
+.move{
+    width: 40px;
+    height: 6px;
+    border-radius: 8px;
+    align-items: center;
+    background: rgba(2,134,20,0.27);
+    margin-left: 70px;
+    margin-bottom: 15px;
+}
+.move1{
+    width: 40px;
+    height: 6px;
+    border-radius: 8px;
+    align-items: center;
+    background: rgba(2,134,20,0.71);
+
+}
+.move2{
+    width: 40px;
+    height: 6px;
+    border-radius: 8px;
+    align-items: center;
+    background: rgba(2,134,20,0.27);
+}
+.price{
+    width: 50px;
+    color: #000000;
+    background: rgba(2,134,20,0.27);
+    border-radius: 100px;
+    border-color: rgba(2,134,20,0.27);
+    font-size: 15px;
+    margin-left: 190px;
+    margin-bottom: -50px;
+}
+/*stop Up Comming image*/
+
+/*start blog*/
+.header-section-center h2 {
+    margin-left: 0px;
+}
+a .btn-viewmore {
+    width: 150px;
+    height: 50px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    background: #028614;
+    border-radius: 90.5px;
+    margin-left: 820px;
+}
+/*end blog*/
+
+
+

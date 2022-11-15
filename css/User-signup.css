@@ -1,0 +1,189 @@
+section{
+    position: relative;
+    background-color:#FFFFFF;
+}
+section .row .col .logo_body .logo-body{
+    width: 1104px;
+    height: 333px;
+    left: 161px;
+    top: 170px;
+    position: absolute;
+}
+section .row .col .logo_body p{
+    /*position: absolute;*/
+    width: 1707px;
+    height: 279px;
+    margin-left: 161px;
+    margin-top: 669px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 135%;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    color: #000000;
+}
+section .row .col .signup_body{
+    /*position: absolute;*/
+    width: 1760px;
+    height: 2763px;
+    left: 2069px;
+    margin-top: 170px;
+    background: rgba(2, 134, 20, 0.27);
+    border-radius: 98px;
+}
+.acc_signup{
+    /*position: absolute;*/
+    width: 1647px;
+    height: 193px;
+    margin-left: 113px;
+    margin-top: 114px;
+    /*left: 2185px;
+    top: 284px;*//*not work*/
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 192px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: -35px;
+}
+.des{
+    /*position: absolute;*/
+    width: 1448px;
+    height: 68px;
+    margin-left: 113px;
+    margin-bottom: 138px;
+    /*left: 2182px;
+    top: 463px;*/ /*not work*/
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 135%;
+    letter-spacing: 0.035em;
+    color: #000000;
+}
+.signup_form .row .col .form-control{
+    /*position: absolute;*/
+    width: 1309px;
+    height: 155.98px;
+    margin-left: 225px;
+    margin-right: 226px;
+    margin-bottom: 65.02px;
+    /*left: 2294px;
+    top: 669px;*/ /*not work*/
+    background: #FFFFFF;
+    border: 3px solid #028614;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+select{
+    width: 1309px;
+    height: 155.98px;
+    margin-left: 225px;
+    margin-right: 226px;
+    margin-bottom: 65.02px;
+    /*left: 2294px;
+    top: 669px;*/ /*not work*/
+    background: #FFFFFF;
+    border: 3px solid #028614;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+input{
+    width: 1236.79px;
+    height: 155.98px;
+    left: 2366.21px;
+    top: 669px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+.signup_form .row .col .sign-up{
+    width: 1309px;
+    height: 155.71px;
+    margin-top: 60px;
+    margin-left: 225px;
+    margin-right: 226px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+    /*left: 2294px;
+    top: 2245px;*/ /*not work*/
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #028614;
+    color: #FFFFFF; 
+}
+hr{
+    /*position: absolute;*/
+    width: 1478px;
+    height: 4px;
+    margin-top: 120px;
+    margin-left: 113px;
+   /* left: 2182px;
+    top: 2521px;*/
+    background: #028614;
+}
+.signup_form .row .col .makesure{
+    /*width: 1308px;*/
+    height: 213px;
+    left: 2294px;
+    top: 2494px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 162.9%;
+    /*display: flex;*/
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: #028614;
+    margin-bottom: -130px;
+}
+.signup_form .row .col .login{
+    width: 850px;
+    height: 155.71px;
+    margin-left: 459px;
+    /*left: 2528px;
+    top: 2680px;*/ /*not work*/
+
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #028614;
+    border: 3px solid #028614;
+    box-sizing: border-box;
+    background: #FFFFFF;
+}
+
+
+
+

@@ -1,0 +1,35 @@
+.blog-item{
+    margin-bottom: 30px;
+}
+
+/* Pagination */
+.pagination{
+    margin-bottom: 0;
+}
+.pagination .page-item .page-link{
+    color: #000;
+    text-decoration: underline;
+    font-size: 18px;
+    padding: 0.375rem 15px;
+    margin: 0 5px;
+    border: none;
+    /* transition: 0.3s; */
+    
+}
+
+.pagination .prev:hover,
+.pagination .next:hover{
+    text-decoration: underline;
+}
+.pagination .next:hover a,
+.pagination .prev:hover a{
+    background-color: transparent;
+}
+.page-item.active .page-link,
+.page-item:hover:not(.next,.prev) .page-link,
+.page-item:focus .page-link{
+    z-index: 3;
+    background-color: transparent;
+    border: 1px solid #028614 !important;
+    border-radius: 50%;
+}

@@ -1,0 +1,284 @@
+
+/* ----Slider----- */
+.sliderbg span{
+    width: 55%;
+    height: 100%;
+    position:absolute;
+    background: linear-gradient(to right, rgba(196,196,196,100%) 62%,rgba(255,255,255,0) 100%);
+}
+.slider .carousel{
+    width: 100%;
+    height: 30%;
+    position: relative;
+}
+.slider .carousel .carousel-inner{
+    height: 400px;
+}
+.slider .carousel .carousel-inner .carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 3% !important;
+}
+.slider .carousel .carousel-inner .carousel-item .carousel-caption{
+    width: 35%;
+    position: absolute;
+    top: 90px;
+    color: #000 !important;
+    text-align: left !important;
+    left: 8.5%;
+}
+.slider .carousel .carousel-inner .carousel-item .carousel-caption h3{
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #353535;
+}
+.slider .carousel .carousel-inner .carousel-item .carousel-caption p{
+    margin: 16px 0;
+}
+.slider .carousel .carousel-inner .carousel-item .carousel-caption label
+{
+  
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 1px;
+    
+}
+.slider .carousel .carousel-inner .carousel-item .carousel-caption .btn-readmore{
+    border: none;
+    padding: 11px 42px;
+    border-radius: 25px;
+    color: #028614;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.carousel-indicators [data-bs-target]{
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+    background-color: #028614 !important;
+}
+.section{
+    margin-top: 30px;
+}
+/* Top Category section */
+.header-section-center h2{
+    color: #000;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+
+}
+.category-items{
+    display: flex;
+    justify-content: space-between;
+}
+.category-items .category-card{
+    width: 150px;
+    border: 1px solid black;
+    height: auto;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    color: #000;
+}
+.category-items .category-card svg{
+    font-size: 65px;
+    font-weight: normal;
+}
+.category-items .category-card p{
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+/* ---Promotion Section---- */
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.header-section h2{
+    color: #000;
+    text-align: left;
+    text-transform: uppercase;
+}
+.header-section a{
+    border: none;
+    padding: 11px 42px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #028614;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.product-item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product-item .item-card{
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    padding: 18px 0;
+
+}
+.product-item .item-card:not(:last-child){
+    margin-right:10px;
+}
+.product-item .item-card .card-img-top{
+    width: 100% !important;
+    height: 255px;
+    margin: auto;
+}
+.product-item .item-card .discount{
+    position: absolute;
+    font-size: 18px;
+    margin: 25px;
+    background-color: #028614;
+    color: #fff;
+    padding: 10px 18px;
+    margin-left: 190px;
+    margin-top: -15px;
+    border-radius: 50%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.product-item .item-card .card-body .book-title{
+    color: #000;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.product-item .item-card .card-body .boot-author{
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.product-item .item-card .card-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+.product-item .item-card .card-foot .prize{
+    color: #028614;
+    font-weight: 700;
+    font-size: 18px;
+}
+.product-item .item-card .card-foot .btn-addcart{
+    border: none;
+    padding: 8px 12px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #028614;
+    font-size: 16px;
+}
+.product-item .item-card .card-foot .btn-addcart svg{
+    font-size: 18px;
+}
+/* ----New Arrivals */
+.product-item .item-card .new{
+    position: absolute;
+    font-size: 18px;
+    margin: 25px;
+    background-color: #028614;
+    color: #fff;
+    padding: 10px 18px;
+    margin-left: 0;
+    margin-top: -14px;
+    /* border-radius: 50%; */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* ------Cambook self-promote */
+.self-promote .header-section h2{
+    text-transform: none;
+    text-align: right;
+}
+.self-promote .promote-item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.self-promote .promote-item:not(:last-child){
+    margin-bottom: 30px;
+
+}
+.self-promote .promote-item .promote-card{
+    border: 1px solid #028614;
+    padding: 35px;
+    border-radius: 50%;
+    background: rgba(2, 134, 20, 0.06)
+
+}
+.self-promote .promote-item .promote-card label{
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-align: center;
+}
+.self-promote .promote-item .promote-card svg{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+/* ------Blog section */
+.blog-item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.blog-item .item-card{
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 360px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    padding: 18px 0;
+
+}
+.blog-item .item-card:not(:last-child){
+    margin-right:10px;
+}
+.blog-item .item-card .card-img-top{
+    width: 100% !important;
+    height: 175px;
+    margin: auto;
+    padding: 0 18px;
+}
+.blog-item .item-card .card-body .blog-date{
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.blog-item .item-card .card-body .blog-title{
+    color: #000;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.blog-item .item-card .card-body .blog-description{
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.blog-item .item-card .card-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+.blog-item .item-card .card-foot .continue-reading{
+    color: #028614;
+    font-weight: 500;
+    font-size: 16px;
+}
